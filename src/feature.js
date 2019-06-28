@@ -7,7 +7,6 @@ export default function Feature(props) {
     return (
       <li key={index} className="feature__item">
       <div className={featureClass}
-        
         onClick={(e) => {props.updateFeature(props.id, item)}}>
           { item.name }
           ({ new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD'})

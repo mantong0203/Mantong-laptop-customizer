@@ -12,7 +12,6 @@ export default function FeaturesList(props) {
     updateFeature={props.updateFeature} />;
   });
 
-      
   return (
     <section className="main__form">
       <h3>TECH SPECS AND CUSTOMIZATIONS</h3>
